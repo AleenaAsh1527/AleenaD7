@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Food Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom Styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .jumbotron {
+      background-image: url('fast-food-background.jpg');
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+    .jumbotron h1, .jumbotron p {
+      color: white;
+    }
+    .about-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+    .testimonial-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Fast Food Restaurant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">Delicious Fast Food</h1>
+    <p class="lead">Satisfy your cravings with our mouthwatering dishes.</p>
+    <a class="btn btn-primary btn-lg" href="#menu" role="button">Order Now</a>
+  </div>
+</div>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-center mb-4">About Us</h2>
+          <p class="text-center">At Fast Food Restaurant, we are passionate about serving delicious and high-quality food to our customers. Since our inception, we have been committed to providing a wide range of mouthwatering dishes that satisfy your cravings.</p>
+          <p class="text-center">We pride ourselves on using fresh ingredients sourced from local farmers and suppliers. Our skilled chefs work tirelessly to create flavorful and innovative recipes that keep you coming back for more.</p>
+          <p class="text-center">Whether you're craving a classic burger, a piping hot pizza, or crispy fries, we have something for everyone. Our mission is to deliver exceptional food and service that exceeds your expectations every time you visit.</p>
+        </div>
+        <div class="col-md-6">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.shutterstock.com/image-photo/all-fast-food-collection-set-260nw-2353214487.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOm2_uW0T5fknfbx4RB3RYn-UC-RDv7DDbjw&usqp=CAU" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://w7.pngwing.com/pngs/708/741/png-transparent-fast-food-restaurant-hamburger-fast-food-restaurant-sweets-food-recipe-fast-food-restaurant-thumbnail.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+<!-- Menu Section -->
+<section id="menu" class="menu-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.shutterstock.com/image-photo/classic-hamburger-stock-photo-isolated-600nw-2282033179.jpg" class="card-img-top" alt="Burger">
+          <div class="card-body">
+            <h5 class="card-title">Classic Burger</h5>
+            <p class="card-text">Our classic burger made with 100% beef patty, lettuce, tomato, onion, and special sauce.</p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.freepik.com/free-psd/freshly-baked-pizza-with-cut-slice-isolated-transparent-background_191095-9041.jpg?size=338&ext=jpg&ga=GA1.1.523418798.1710374400&semt=sph" class="card-img-top" alt="Pizza">
+          <div class="card-body">
+            <h5 class="card-title">Pepperoni Pizza</h5>
+            <p class="card-text">Delicious pizza topped with pepperoni, mozzarella cheese, and marinara sauce.</p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg" class="card-img-top" alt="Fries">
+          <div class="card-body">
+            <h5 class="card-title">French Fries</h5>
+            <p class="card-text">Crispy and golden fries served with your choice of dipping sauce.</p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonial-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Customer Testimonials</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"The food here is absolutely amazing! Always fresh and tasty. My go-to spot for quick bites."</p>
+            <p class="card-text text-right"><em>- John Doe</em></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"I love the variety of options available on the menu. Everything I've tried so far has been delicious!"</p>
+            <p class="card-text text-right"><em>- Jane Smith</em></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">"Great service and great food! Always satisfied with my orders from here."</p>
+            <p class="card-text text-right"><em>- Michael Johnson</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&copy; 2024 Fast Food Restaurant. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS, jQuery, and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
